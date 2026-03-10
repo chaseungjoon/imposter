@@ -2,17 +2,17 @@
 
 ## ⚠️ DISCLAIMER
 
-This game uses the OpenAI API to generate word pairs for the game. 
+This game uses the **OpenAI API** to generate word pairs for the game. 
 
-The model used is `gpt-4o-mini`, which is a lightweight low cost version ($0.15 input, $0.075 output per 1M tokens).
+The model used is `gpt-4o-mini`, which is a lightweight low cost version ***($0.15 input, $0.075 output per 1M tokens)***.
 
 ## ❓ About 
 
-One player is secretly the Imposter, everyone else is a civillian. 
+One player is secretly the **imposter**, everyone else is a **civillian**. 
 
-Civillians all recieve the same secret word, while the Imposter recieves a different secret word. 
+**Civillians** all recieve the same secret word, while the **imposter** recieves a different secret word. 
 
-The goal of the Imposter is to blend in and not get caught, while the goal of the Civillians is to identify and eliminate the Imposter.
+The goal of the **imposter** is to blend in and not get caught, while the goal of the **civillians** is to identify and eliminate the **imposter**.
 
 
 ## ➡️ How to run
@@ -40,18 +40,38 @@ python main.py
 
 ## 🤔 How to play
 
-### 1) Setup - Enter the names of all players
+### 1) Setup 
 
-### 2) Initilize - The device is passed around so each player privately sees their secret word
+- Enter the names of all players
 
-### 3) Discussion - Players take turns each saying one word related to their secret word and try to figure out who the Imposter is
+### 2) Initilize 
 
-### 4) Voting - After a few (2~3) rounds of discussion, the players vote on who they think the Imposter is. 
+- The device is passed around so each player privately sees their secret word
 
-### 5) Reveal - The player with the most votes is revealed and terminated.
+### 3) Discussion 
 
-### 6) End Game - If the Imposter is terminated, the Civillians win. If the Imposter is not terminated, the Imposter wins.
+- Players take turns each saying one word related to their secret word and try to figure out who the imposter is
 
+### 4) Voting 
+
+- After a few (2~3) rounds of discussion, the players vote on who they think the Imposter is. 
+
+### 5) Reveal 
+
+- The player with the most votes is revealed and terminated.
+
+### 6) End Game 
+
+- If the imposter is terminated, the imposter has a chance to guess the civillian secret word.
+- If the imposter guesses the civillian's word correctly, the imposter wins and recieves points. 
+- If the imposter fails to guess the word, the civillians win.
+
+- If the imposter is not terminated, the imposter wins and recieves the highest points.
+- The civillians who voted for the imposter recieves points. 
+
+### 7) Next Round
+
+- The game can continue for multiple rounds, with players accumulating points based on their performance in each round.
 
 ## ❇️ Features
 
