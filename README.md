@@ -1,12 +1,12 @@
 # Imposter Game
 
-## DISCLAIMER
+## ⚠️ DISCLAIMER
 
 This game uses the OpenAI API to generate word pairs for the game. 
 
 The model used is `gpt-4o-mini`, which is a lightweight low cost version ($0.15 input, $0.075 output per 1M tokens).
 
-## About 
+## ❓ About 
 
 One player is secretly the Imposter, everyone else is a civillian. 
 
@@ -15,7 +15,7 @@ Civillians all recieve the same secret word, while the Imposter recieves a diffe
 The goal of the Imposter is to blend in and not get caught, while the goal of the Civillians is to identify and eliminate the Imposter.
 
 
-## How to run
+## ➡️ How to run
 
 ### 1) Clone the repository
 ```bash
@@ -38,7 +38,7 @@ echo "OPENAI_API_KEY=your_api_key" > .env
 python main.py
 ```
 
-## How to play
+## 🤔 How to play
 
 ### 1) Setup - Enter the names of all players
 
@@ -53,7 +53,7 @@ python main.py
 ### 6) End Game - If the Imposter is terminated, the Civillians win. If the Imposter is not terminated, the Imposter wins.
 
 
-## Features
+## ❇️ Features
 
 - Pre configured scoring system for Civillians and Imposter
 - Customizable number of players and rounds
