@@ -8,13 +8,13 @@ The model used is `gpt-4o-mini`, which is a lightweight low cost version ***($0.
 
 ## ❓ About 
 
-For an ***N*** player game, ***N-1*** players (**civillians**) are given the same secret word, and one player (**the imposter**) is given a different (but similar) secret word.
+For an ***N*** player game, ***N-1*** players (**civilians**) are given the same secret word, and one randomly selected player (**the imposter**) is given a different (but similar) secret word.
 
 > ex) For a 4 player game, 3 players will be given "kitchen" and 1 player will be given "restaurant".
 
-No one knows whether they are an **imposter** or a **civillian**.
+No one knows whether they are an **imposter** or a **civilian**.
 
-The goal of the **imposter** is to blend in and not get caught, while the goal of the **civillians** is to identify and eliminate the **imposter**.
+The goal of the **imposter** is to blend in and not get caught, while the goal of the **civilians** is to identify and eliminate the **imposter**.
 
 
 ## ➡️ How to run
@@ -56,7 +56,7 @@ python main.py
 
 ### 4) Voting 
 
-- After a few (2~3) rounds of discussion, the players vote on who they think the Imposter is. 
+- After a few (2~3) rounds of discussion, the players vote on who they think the imposter is. 
 
 ### 5) Reveal 
 
@@ -64,12 +64,12 @@ python main.py
 
 ### 6) End Game 
 
-- If the imposter is terminated, the imposter has a chance to guess the civillian secret word.
-- If the imposter guesses the civillian's word correctly, the imposter wins and recieves points. 
-- If the imposter fails to guess the word, the civillians win.
+- If the imposter is terminated, the imposter has a chance to guess the civilian secret word.
+- If the imposter guesses the civilian word correctly, the imposter wins and recieves points. 
+- If the imposter fails to guess the word, the civilians win and recieve points.
 
 - If the imposter is not terminated, the imposter wins and recieves the highest points.
-- The civillians who voted for the imposter recieves points. 
+- The civilians who voted for the imposter recieves points. 
 
 ### 7) Next Round
 
@@ -77,8 +77,8 @@ python main.py
 
 ## ❇️ Features
 
-- Pre configured scoring system for Civillians and Imposter
+- Pre configured scoring system for civilians and imposter
 - Customizable number of players and rounds
-- New word pair (new from log.csv) generation using OpenAI API
+- Word pair (different from pre-used words in log.csv) generation using OpenAI API
 
 
