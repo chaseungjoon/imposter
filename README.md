@@ -64,7 +64,7 @@ python main.py
 
 ### 6) End Game 
 
-#### Imposter Terminated
+#### 1. Imposter Terminated
 
 > **If the imposter is terminated, the imposter has a chance to guess the civilian secret word.**
 
@@ -72,7 +72,7 @@ python main.py
 
 **B)** If the imposter fails to guess the word, the civilians win and recieve points.
 
-#### Civilian Terminated
+#### 2. Civilian Terminated
 
 > The imposter wins and recieve points, and the civilians who voted for the imposter also recieve points.
 
@@ -83,7 +83,9 @@ python main.py
 ## ❇️ Features
 
 > Pre configured scoring system for civilians and imposter
+
 > Customizable number of players and rounds
+
 > Word pair (different from pre-used words in log.csv) generation using OpenAI API
 
 
