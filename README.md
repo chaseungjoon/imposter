@@ -68,13 +68,13 @@ python main.py
 
 > **If the imposter is terminated, the imposter has a chance to guess the civilian secret word.**
 
-**A)** If the imposter guesses the civilian word correctly, the imposter wins and recieves points. 
+**A)** If the imposter guesses the civilian word correctly, the imposter wins and recieve points. 
 
 **B)** If the imposter fails to guess the word, the civilians win and recieve points.
 
 #### Civilian Terminated
 
-> The imposter wins and recieves points, and the civilians who voted for the imposter also recieves points.
+> The imposter wins and recieve points, and the civilians who voted for the imposter also recieve points.
 
 ### 7) Next Round
 
@@ -82,8 +82,8 @@ python main.py
 
 ## ❇️ Features
 
-- Pre configured scoring system for civilians and imposter
-- Customizable number of players and rounds
-- Word pair (different from pre-used words in log.csv) generation using OpenAI API
+> Pre configured scoring system for civilians and imposter
+> Customizable number of players and rounds
+> Word pair (different from pre-used words in log.csv) generation using OpenAI API
 
 
