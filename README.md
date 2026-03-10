@@ -8,13 +8,13 @@ The model used is `gpt-4o-mini`, which is a lightweight low cost version ***($0.
 
 ## ❓ About 
 
-One player is secretly the **imposter**, everyone else is a **civillian**. 
+> For an ***N*** player game, ***N-1*** players (**civillians**) are given the same secret word, and one player (**the imposter**) is given a different (but similar) secret word.
 
-No one knows whether they are the **imposter** or a **civillian**.
+ex) For a 4 player game, 3 players will be given "kitchen" and 1 player will be given "restaurant".
 
-**Civillians** all recieve the same secret word, while the **imposter** recieves a different secret word. 
+> No one knows whether they are an **imposter** or a **civillian**.
 
-The goal of the **imposter** is to blend in and not get caught, while the goal of the **civillians** is to identify and eliminate the **imposter**.
+> The goal of the **imposter** is to blend in and not get caught, while the goal of the **civillians** is to identify and eliminate the **imposter**.
 
 
 ## ➡️ How to run
