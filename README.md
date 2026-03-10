@@ -6,6 +6,10 @@ This game uses the **OpenAI API** to generate word pairs for the game.
 
 The model used is `gpt-4o-mini`, which is a lightweight low cost version ***($0.15 input, $0.075 output per 1M tokens)***.
 
+<img width="2485" height="1415" alt="1" src="https://github.com/user-attachments/assets/f4e0085a-9e9c-49ed-9f95-a1918d6c8606" />
+<img width="2231" height="1269" alt="2" src="https://github.com/user-attachments/assets/316dd47e-8664-43b0-813e-ba847a222878" />
+
+
 ## ❓ About 
 
 For an ***N*** player game, ***N-1*** players (**civilians**) are given the same secret word, and one randomly selected player (**the imposter**) is given a different (but similar) secret word.
