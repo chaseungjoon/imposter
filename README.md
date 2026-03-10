@@ -10,6 +10,8 @@ The model used is `gpt-4o-mini`, which is a lightweight low cost version ***($0.
 
 One player is secretly the **imposter**, everyone else is a **civillian**. 
 
+No one knows whether they are the **imposter** or a **civillian**.
+
 **Civillians** all recieve the same secret word, while the **imposter** recieves a different secret word. 
 
 The goal of the **imposter** is to blend in and not get caught, while the goal of the **civillians** is to identify and eliminate the **imposter**.
