@@ -68,9 +68,9 @@ python main.py
 
 > **If the imposter is terminated, the imposter has a chance to guess the civilian secret word.**
 
-**A)** If the imposter guesses the civilian word correctly, the imposter wins and recieve points. 
+* If the imposter guesses the civilian word correctly, the imposter wins and recieve points. 
 
-**B)** If the imposter fails to guess the word, the civilians win and recieve points.
+* If the imposter fails to guess the word, the civilians win and recieve points.
 
 #### 2. Civilian Terminated
 
